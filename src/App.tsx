@@ -1,10 +1,11 @@
+import HomePage from "./pages/HomePage"
 
 function App() {
   
 
   return (
     <>
-      <h1>LAN Organizer</h1>
+      <HomePage />
     </>
   )
 }
