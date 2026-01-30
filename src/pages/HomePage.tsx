@@ -6,6 +6,7 @@ function HomePage() {
 
   const loadGames = (formData: FormData) => {
     const steamId = formData.get("playerID");
+    console.log("TODO: Call API with: ", steamId);
     setView("gamelist");
   };
   return (

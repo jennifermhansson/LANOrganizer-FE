@@ -1,4 +1,6 @@
 import HomePage from "./pages/HomePage";
+import GameList from "./pages/GameList";
+
 import useStore from "./store";
 import { type AppState } from "./store";
 
@@ -9,7 +11,7 @@ function App() {
     case "home":
       return <HomePage />;
     case "gamelist":
-      return <h1>Games you can play. Maybe.</h1>;
+      return <GameList />;
   }
 }
 
