@@ -1,3 +1,4 @@
+@import "tailwindcss";
 
 :root {
   --bg-main: #0b0f14;
@@ -7,7 +8,7 @@
   --text-primary: #e5e7eb;
   --text-secondary: #9ca3af;
 
-  --accent: #38bdf8; 
+  --accent: #38bdf8;
   --accent-soft: rgba(56, 189, 248, 0.15);
 
   --blur-strong: 80px;
@@ -33,8 +34,13 @@ body {
 
 body {
   margin: 0;
-  font-family: Inter, system-ui, -apple-system, sans-serif;
+  font-family:
+    Inter,
+    system-ui,
+    -apple-system,
+    sans-serif;
   background: var(--bg-main);
   color: var(--text-primary);
   overflow-x: hidden;
 }
+
